@@ -1,0 +1,45 @@
+@import './assets/fontawesomes/version_5_pro/css/all.css';
+@import './assets/fontawesomes/version_6_pro/css/all.css';
+/* fontawesome */
+
+@import 'perfect-scrollbar/css/perfect-scrollbar.css';
+/* perfect scrollbar */
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('/fonts/Roboto/static/Roboto-Regular.ttf') format('truetype'),
+        url('/fonts/Roboto/static/Roboto-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('/fonts/Roboto/static/Roboto-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('/fonts/Roboto/static/Roboto-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+input::-ms-reveal,
+input::-ms-clear {
+    display: none;
+}

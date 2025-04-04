@@ -1,0 +1,30 @@
+// 1️⃣ Import các function của Bootstrap trước
+@import 'bootstrap/scss/functions';
+
+// 2️⃣ Khai báo các biến tùy chỉnh
+$primary: #0a84ff;
+$secondary: #5e6278;
+$success: #2dce89;
+$danger: #f64e60;
+$warning: #ff9f43;
+$info: #6a5acd;
+$light: #f8f9fa;
+$dark: #212529;
+
+// Màu nền & văn bản
+$background-dark: #121212;
+$background-light-dark: #1e1e2d;
+$text-color: #e0e0e0;
+$text-muted: #b0b3b8;
+$border-color: #292929;
+
+// Hiệu ứng gradient
+$gradient-primary: linear-gradient(135deg, #0a84ff 0%, #6a5acd 100%);
+$gradient-warning: linear-gradient(135deg, #ff9f43 0%, #f64e60 100%);
+
+// 3️⃣ Import Bootstrap Variables để Bootstrap sử dụng các biến mới
+@import 'bootstrap/scss/variables';
+
+// 4️⃣ Import mixins & các thành phần của Bootstrap
+@import 'bootstrap/scss/mixins';
+@import 'bootstrap/scss/bootstrap';
